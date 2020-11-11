@@ -1,31 +1,31 @@
 
 body{
-	font-family: 'Poppins', sans-serif;
-	font-size:16px;
+    font-family: 'Poppins', sans-serif;
+    font-size:16px;
     position:relative;
   /*  font-family: 'Amperzand';   */
 }
 ul{
-	margin:0;
-	padding:0;
-	list-style: none;
+    margin:0;
+    padding:0;
+    list-style: none;
 }
 a, p{
 }
 a{
-	text-decoration:none;
+    text-decoration:none;
 }
 p{
-	margin:0;
+    margin:0;
 }
 
 hr{
-	margin:0;
+    margin:0;
 }
 h2{
-	font-size:38px;
-	font-weight: 700;
-	font-family: 'Amperzand'; 
+    font-size:38px;
+    font-weight: 700;
+    font-family: 'Amperzand'; 
 }
 h3 {
     font-size: 25px;
@@ -36,34 +36,36 @@ h4 {
     font-size: 18px;
     font-weight: 400;
     color: #f39c12;
+    -webkit-transition: .4s;
     transition: .4s;
 }
 h4:hover{
-	color:#8c8ef4;
-	cursor:pointer;
+    color:#8c8ef4;
+    cursor:pointer;
 }
 h5{
-	font-family: 'Amperzand'; 
-	font-weight: 700;
-	font-size:17px;
+    font-family: 'Amperzand'; 
+    font-weight: 700;
+    font-size:17px;
 }
 .section-padding-1 {
     padding: 125px 0;
 }
 .section-padding-2{
-	padding:60px 0;
+    padding:60px 0;
 }
 .btn-sty-1 {
     padding: 10px 25px !important;
     background-color: #f39c12;
     display: inline-block !important;
     border-radius: 30px !important;
+    -webkit-transition: .4s;
     transition: .4s;
     border: 2px solid #f39c12;
     box-sizing: border-box;
 }
 .btn-sty-1:hover {
-	background: #8C8EF4;
+    background: #8C8EF4;
     border-color:#8C8EF4;
     color: #fff !important;
 }
@@ -75,17 +77,18 @@ h5{
     border-radius: 5px;
     color: #fff!important;
     box-sizing: border-box;
+    -webkit-transition: .4s;
     transition: .4s;
 }
 .btn-sty-2:hover{
-	background:#fff;
-	color:#8c8ef4 !important;
+    background:#fff;
+    color:#8c8ef4 !important;
 }
 .text-align{
-	text-align: center;
+    text-align: center;
 }
 /*=====================================================================
-		===============		HEADER-TOP-AREA CSS		===============
+        ===============     HEADER-TOP-AREA CSS     ===============
 ======================================================================*/
 .header-top-area {
     padding: 15px;
@@ -93,27 +96,35 @@ h5{
 }
 .header-top{}
 .header-top ul {
-    align-items: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    justify-content: flex-end;
+    -webkit-box-pack: end;
+        -ms-flex-pack: end;
+            justify-content: flex-end;
 }
 .header-top ul li {
     margin-left: 20px;
 }
 .header-top ul li a{
-	color:#7d7c7c;
-	font-weight:300;
-	transition: .4s;
+    color:#7d7c7c;
+    font-weight:300;
+    -webkit-transition: .4s;
+    transition: .4s;
 }
 .header-top ul li a i{
-	margin-right: 6px;
+    margin-right: 6px;
 }
 
 /*=====================================================================
-		===============		HEADER-AREA CSS		===============
+        ===============     HEADER-AREA CSS     ===============
 ======================================================================*/
 .header-area{
 position: relative;
+-webkit-transition: .4s;
 transition: .4s;
 }
 
@@ -132,7 +143,7 @@ transition: .4s;
 }
 
 .banner-btn ul li a{
-	color:#403737;
+    color:#403737;
 }
 .navbar li i{
     font-size:22px;
@@ -141,7 +152,7 @@ transition: .4s;
 .banner-btn ul li a:hover,
 .header-top ul li a:hover,
 .banner-btn ul li a:hover i{
-	color:#8c8ef4;
+    color:#8c8ef4;
 }
 #navbarNav ul li:last-child {
     margin-left: 25px;
@@ -163,7 +174,7 @@ transition: .4s;
     z-index: 255;
 }
 .sticky .header-row{
-	padding:5px 0;
+    padding:5px 0;
 }.toggle {
     position: absolute;
     top: 8px;
@@ -176,7 +187,7 @@ transition: .4s;
     box-shadow: unset;
 }
 /*=====================================================================
-		===============		BANNER-AREA CSS		===============
+        ===============     BANNER-AREA CSS     ===============
 ======================================================================*/
 .banner-area{
     position: relative;
@@ -204,9 +215,9 @@ transition: .4s;
     width: 100%;
 }
 .banner-content{
-	margin:190px 0;
-	position: relative;
-	z-index: 25;
+    margin:190px 0;
+    position: relative;
+    z-index: 25;
 }
 .banner-text {
     width: 70%;
@@ -224,9 +235,13 @@ transition: .4s;
     margin-top: 30px;
 }
 .banner-btn ul {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
     padding:15px;
-    justify-content: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
     background: rgba(255,255,255,0.7);
 }
 .banner-btn ul li {
@@ -236,22 +251,24 @@ transition: .4s;
     border-radius: 5px;
 }
 .banner-btn ul li:last-child{
-	margin-right: 0%;
+    margin-right: 0%;
 }
 .banner-btn ul li a {
     padding: 10px;
     display: block;
+    -webkit-transition: .4s;
     transition: .4s;
 }
 .banner-btn ul li a i {
     margin-right: 10px;
     color: #4F4F4F;
+    -webkit-transition: .4s;
     transition: .4s;
 }
 
 /*owl-button design*/
 .carousel-banner.owl-theme .owl-nav.disabled+.owl-dots{
-	position: absolute;
+    position: absolute;
     left: 0;
     right: 0;
     margin: auto;
@@ -265,19 +282,20 @@ transition: .4s;
     outline: unset;
 }
 /*=====================================================================
-		===============	  FETURE HOTEL-AREA CSS	===============
+        ===============   FETURE HOTEL-AREA CSS ===============
 ======================================================================*/
 .feature-hotel-items{
 
 }
 .f-hotel-img{
-	height:380px;
-	position: relative;
+    height:380px;
+    position: relative;
 }
 .f-hotel-img img{
-	height:100%;
-	width:100%;
-	object-fit: cover;
+    height:100%;
+    width:100%;
+    -o-object-fit: cover;
+       object-fit: cover;
 }
 .f-hotel-overlay {
     position: absolute;
@@ -291,19 +309,26 @@ transition: .4s;
     width:91%;
 }
 .f-hotel-overlay p {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    justify-content: flex-start;
-    align-items: center;
+    -webkit-box-pack: start;
+        -ms-flex-pack: start;
+            justify-content: flex-start;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
 }
 .f-hotel-overlay span {
     margin: 0 15px;
 }
 .f-hotel-overlay a {
-	color:#4F4F4F;
-	transition: .4s;
+    color:#4F4F4F;
+    -webkit-transition: .4s;
+    transition: .4s;
 }
 .f-hotel-overlay a:hover {
-	color:#8c8ef4;
+    color:#8c8ef4;
 }
 .feature-hotel-area h2 {
     max-width: 450px;
@@ -335,7 +360,7 @@ transition: .4s;
     width: 40px;
     height: 40px;
     border: 2px solid;
-    line-height: 28px;
+    line-height: 31px;
     display: inline-block;
     text-align: center;
     border-radius: 50%;
@@ -348,10 +373,10 @@ transition: .4s;
     color: #8c8ef4 !important;
 }
 /*=====================================================================
-		===============	  ABOUT-BRODIN-AREA CSS	===============
+        ===============   ABOUT-BRODIN-AREA CSS ===============
 ======================================================================*/
 .about-area{
-	background:#f2f4f5;
+    background:#f2f4f5;
 }
 
 .about-img {
@@ -361,8 +386,8 @@ transition: .4s;
     position: relative;
 }
 .about-img .ab-img img{
-	width:100%;
-	height:100%;
+    width:100%;
+    height:100%;
 }
 .ab-img {
     width: 250px;
@@ -372,7 +397,7 @@ transition: .4s;
     position: absolute;
 }
 .ab-bottom{
-	z-index: 1;
+    z-index: 1;
 }
 
 .ab-middle {
@@ -399,23 +424,27 @@ transition: .4s;
     margin: 25px 0;
 }
 .about-content .btn-sty-1{
-	color:#403737;
-	transition: .4s;
+    color:#403737;
+    -webkit-transition: .4s;
+    transition: .4s;
 }
 .about-content .btn-sty-1:hover{
-	color:#8c8ef4;
+    color:#8c8ef4;
 }
 /*=====================================================================
-		===============	  FETURE HOTEL-AREA CSS	===============
+        ===============   FETURE HOTEL-AREA CSS ===============
 ======================================================================*/
 .service-area h2{
-	margin-bottom:30px;
+    margin-bottom:30px;
 }
 
 .single-service-items{
-	padding:25px 20px;
-	transition:.4s;
-	margin:15px 0;
+    padding:25px 20px;
+    -webkit-transition: .4s;
+    transition:.4s;
+    margin:15px 0;
+    -webkit-transition: all .4s ease;
+    transition:all .4s ease;
 }
 .single-service-items:hover {
     padding: 25px 20px;
@@ -437,6 +466,7 @@ transition: .4s;
     color: #fff;
     border-radius: 5px;
     font-size: 30px;
+    -webkit-transition: .4s;
     transition: .4s;
 }
 .sercive-content h3 {
@@ -444,52 +474,54 @@ transition: .4s;
 }
 .sercive-content p {
     opacity: .7;
+    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=70)";
 }
 .single-best-room{
-	width:100%;
+    width:100%;
 }
 .room{
-	width:100%;
-	height:500px;
+    width:100%;
+    height:500px;
 }
 .left-room-top img,
 .left-room-bottom img,
 .room-center-itmes img,
 .right-room-top img,
 .right-room-bottom img{
-	width:100%;
-	height:100%;
-	object-fit: cover;
+    width:100%;
+    height:100%;
+    -o-object-fit: cover;
+       object-fit: cover;
 }
 .room-h2{
-	margin:30px 0;
+    margin:30px 0;
 }
 .left-room-top{
-	width:100%;
-	height:40%;
-	margin-bottom:25px;
-	position:relative;
+    width:100%;
+    height:40%;
+    margin-bottom:25px;
+    position:relative;
 }
 .left-room-bottom{
-	width:100%;
-	height:55%;
-	position:relative;
+    width:100%;
+    height:55%;
+    position:relative;
 }
 .room-center-itmes{
-	width:100%;
-	height:100%;
-	position:relative;
+    width:100%;
+    height:100%;
+    position:relative;
 }
 .right-room-top{
-	width:100%;
-	height:47.5%;
-	margin-bottom: 25px;
-	position:relative;
+    width:100%;
+    height:47.5%;
+    margin-bottom: 25px;
+    position:relative;
 }
 .right-room-bottom{
-	width:100%;
-	height:47.5%;
-	position:relative;
+    width:100%;
+    height:47.5%;
+    position:relative;
 }
 .room-overlay {
     position: absolute;
@@ -498,26 +530,37 @@ transition: .4s;
     width: 100%;
     height: 100%;
     background: #f39c12;
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
     text-align: center;
-    flex-direction: column;
-    justify-content: center;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
     padding:20px;
     opacity: 0;
+    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
     visibility: hidden;
+    -webkit-transition: .4s;
     transition: .4s;
 }
 .same-item:hover .room-overlay{
-	visibility:visible;
-	opacity: 1;
-	top:0;
+    visibility:visible;
+    opacity: 1;
+    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=100)";
+    top:0;
 }
 .same-item{
-	overflow:hidden;
+    overflow:hidden;
 }
 .room-overlay p {
     font-size: 14px;
     opacity: .7;
+    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=70)";
 }
 .room-overlay .btn-sty-2 {
     width: 150px;
@@ -529,35 +572,38 @@ transition: .4s;
     margin-top: 12px;
 }
 .room-overlay .btn-sty-2:hover{
-	background: #fff;
+    background: #fff;
 }
 /*=====================================================================
-		===============	  FETURE HOTEL-AREA CSS	===============
+        ===============   FETURE HOTEL-AREA CSS ===============
 ======================================================================*/
 .video-area{
-	background: url(../images/video-bg.jpg) no-repeat scroll 0 0 / cover;
-	padding:200px 0;
-	opacity:.7;
+    background: url(../images/video-bg.jpg) no-repeat scroll 0 0 / cover;
+    padding:200px 0;
+    opacity:.7;
+    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=70)";
 }
 .video{
-	text-align: center;
+    text-align: center;
 }
 .video img{
     width: 80px;
     height: auto;
-    object-fit: cover;    
+    -o-object-fit: cover;
+       object-fit: cover;    
     position: relative;
     z-index: 15;
     background: #f39c12;
     border-radius: 50%;
+    -webkit-transition: .4s;
     transition: .4s;
 }
 .video img:hover{
-	background: #8c8ef4;
+    background: #8c8ef4;
 }
 
 /*=====================================================================
-		===============	  RESENT-NEWS-AREA CSS	===============
+        ===============   RESENT-NEWS-AREA CSS  ===============
 ======================================================================*/
 
 
@@ -567,23 +613,24 @@ transition: .4s;
     position: relative;
 }
 .news-content .news{
-	position: absolute;
-	width:100%;
-	height:50%;
+    position: absolute;
+    width:100%;
+    height:50%;
 }
 .news-img img{
-	width:100%;
-	height:100%;
-	object-fit:cover;
+    width:100%;
+    height:100%;
+    -o-object-fit:cover;
+       object-fit:cover;
 }
 .news-img{
-	z-index: 10;
+    z-index: 10;
 }
 .news-text{
-	top:105px;
-	left:40px;
-	z-index: 5;
-	background: #fff;
+    top:105px;
+    left:40px;
+    z-index: 5;
+    background: #fff;
 }
 .news-text {
     top: 160px;
@@ -594,26 +641,29 @@ transition: .4s;
     padding: 112px 20px 20px;
 }
 .news-text h4{
-	color:#f39c12;
-	font-size: 16px;
-	transition: .4s;
+    color:#f39c12;
+    font-size: 16px;
+    -webkit-transition: .4s;
+    transition: .4s;
 }
 .news-text h4 a{
-	color:#f39c12;
-	font-size: 16px;
-	transition: .4s;
+    color:#f39c12;
+    font-size: 16px;
+    -webkit-transition: .4s;
+    transition: .4s;
 }
 .news-text h4:hover,
 .news-text h4 a:hover,
 .news-text .read-more:hover{
-	color:#8c8ef4;
+    color:#8c8ef4;
 }
 .news-text .read-more{
-	color:#f39c12;
-	font-weight: 400;
-	text-decoration:underline;
-	padding-bottom: 5px;
-	transition: .4s;
+    color:#f39c12;
+    font-weight: 400;
+    text-decoration:underline;
+    padding-bottom: 5px;
+    -webkit-transition: .4s;
+    transition: .4s;
 }
 .news-carousel .owl-item {
     margin-right: unset;
@@ -632,18 +682,18 @@ transition: .4s;
     font-size: 35px;
 }
 /*=====================================================================
-		===============	  FETURE HOTEL-AREA CSS	===============
+        ===============   FETURE HOTEL-AREA CSS ===============
 ======================================================================*/
 .save-time-area{
  background: #f2f4f5;
 }
 .hero-area{
-	background: #f39c12;
-	padding:40px;
-	box-shadow:0 16px 16px 4px #ccc;
+    background: #f39c12;
+    padding:40px;
+    box-shadow:0 16px 16px 4px #ccc;
 }
 .hero-area h3{
-	margin-bottom: 25px;
+    margin-bottom: 25px;
 }
 .hero-area input[type="email"] {
     padding: 12px;
@@ -654,7 +704,7 @@ transition: .4s;
     border-radius: 5px;
 }
 .hero-area input[placeholder]{
-	color:#8c8ef4;
+    color:#8c8ef4;
 }
 .hero-area button {
     padding: 12px;
@@ -665,36 +715,42 @@ transition: .4s;
     border-radius: 5px;
     margin-left: 15px;
     border:2px solid #8c8ef4;
+    -webkit-transition: .4s;
     transition: .4s;
 }
 .hero-area button:hover{
-	color:#8c8ef4;
-	background: #fff;
+    color:#8c8ef4;
+    background: #fff;
 }
 .all-items-slides{
-	margin-top: 100px;
+    margin-top: 100px;
 }
 .all-img-items{
-	width:100%;
-	height: 350px;
+    width:100%;
+    height: 350px;
 }
 .all-img-items img{
-	width:100%;
-	height:100%;
-	object-fit: cover;
+    width:100%;
+    height:100%;
+    -o-object-fit: cover;
+       object-fit: cover;
 }
 
 /*=====================================================================
-		===============	  FOOTER-AREA CSS	===============
+        ===============   FOOTER-AREA CSS   ===============
 ======================================================================*/
 
 .footer-items{
 
 }
 .left-footer ul {
-	display:flex;
-	align-items: center;
-	margin-top: 30px;
+    display:-webkit-box;
+    display:-ms-flexbox;
+    display:flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    margin-top: 30px;
 }
 
 .left-footer ul li i {
@@ -703,44 +759,47 @@ transition: .4s;
     height: 40px;
     text-align: center;
     border: 1px solid #f39c12;
-    line-height: 40px;
+    line-height: 38px;
     border-radius: 50%;
     color: #8c8ef4;
     margin-right: 20px;
+    -webkit-transition: .4s;
     transition: .4s;
     cursor: pointer;
 }
 .left-footer  ul li i:hover,
 .left-footer  ul li i:focus{
-	color:#f39c12;
+    color:#f39c12;
 }
 .footer-items h3,
 .left-footer h3 {
     margin-bottom: 25px;
 }
 .footer-items ul li{
-	margin-bottom: 12px;
+    margin-bottom: 12px;
 }
 .footer-items ul li a{
-	color:#212529;
-	transition: .4s;
+    color:#212529;
+    -webkit-transition: .4s;
+    transition: .4s;
 }
 .footer-items ul li a:hover{
-	color:#8c8ef4;
+    color:#8c8ef4;
 }.left-footer p {
     opacity: .7;
+    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=70)";
 }
 .socket-area{
-	background: #212529;
+    background: #212529;
 }
 .socket-area p{
-	padding:20px 0; 
-	color:#8c8ef4;
+    padding:20px 0; 
+    color:#8c8ef4;
 }
 .socket-area .col-md-6:last-child p{
-	float:right;
-	display: block;
-	overflow:hidden;
+    float:right;
+    display: block;
+    overflow:hidden;
 }.back-top-btn {
     position: absolute;
     right: 0;
@@ -759,5 +818,5 @@ transition: .4s;
     color: #8C8EF4;
 }
 .back-top-btn i:hover{
-	background:#fff;
+    background:#fff;
 }
